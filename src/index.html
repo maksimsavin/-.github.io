@@ -7,9 +7,12 @@
         <meta name="author" content="Andrey">
         <meta name="robots" content="all">
         
+        
         <meta property="og:title" content="Это моя первая страница...">
         
         <title>Андрей Браун - Веб-разработчик</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     
     <body>
@@ -17,14 +20,14 @@
         <header>
             <nav>
                 <div class="logo">Андрей Браун</div>
-                <div class="menu"><ul>
+                <div class="menu">
+                <ul>
                 <li>Обо мне</li>
                 <li>Услуги</li>
                 <li>Кейсы</li>
                 <li>Прайс</li>
                 <li>Отзывы</li>
                 <li>Контакты</li>
-                
                     </ul></div>
             </nav>
         </header>
@@ -35,44 +38,58 @@
            <input type="submit" value="Обо мне">
            <input type="submit" value="Мои работы">
             </div></div>
+    
             
-            <h2>ОБО МНЕ</h2>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sunt labore obcaecati, architecto, totam dolorem! Nisi odio doloribus vel praesentium aliquid! Illum impedit, est ex officiis earum soluta, corrupti vero ipsam quia neque!</p>
-            
+            <div class="resume__title"><h2>ОБО МНЕ</h2></div>
+            <div class="resume__photo>"></div>
+            <div class="resume__container"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sunt labore obcaecati, architecto, totam dolorem! Nisi odio doloribus vel praesentium aliquid! Illum impedit, est ex officiis earum soluta, corrupti vero ipsam quia neque!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis inventore veniam amet, unde sapiente esse eligendi earum voluptatibus, ad deserunt ab officiis nisi, quam veritatis quaerat dolore commodi rem aliquam reprehenderit ipsam eum.</p>
             
-            <input type="submit" value="Скачать резюме">
+            <input type="submit" value="Скачать резюме"></div>
             
+            <div class="img__container">
             <h2>Что я умею</h2>
             
-            <p>Веб-дизайн</p>
+            <div class="block">
+            
+            <div class="child"><p>Веб-дизайн</p>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum, perferendis quis placeat quisquam eius blanditiis dolor, natus inventore aperiam maxime, distinctio sint veniam.</span>
+            </div>
             
-            <p>Разработка</p>
+            <div class="child"><p>Разработка</p>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, libero non, dolorem mollitia porro tempora. Quidem obcaecati officia dolorem eaque.</span>
+            </div>
             
-            <p>СЕО-Оптимизация</p>
+            <div class="child"><p>СЕО-Оптимизация</p>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut iste praesentium, tempore beatae totam tenetur quo perferendis laudantium voluptate sint maiores fuga, deleniti vero non laboriosam deserunt incidunt, iure minima!</span>
+            </div>
             
-            <p>Маркетинг</p>
+            <div class="child"><p>Маркетинг</p>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quis dignissimos quisquam at neque reprehenderit, illum quibusdam rem, error eveniet assumenda dolore reiciendis, architecto!</span>
+            </div>
+            </div>
+            </div>
             
-            <h2>КЕЙСЫ</h2>
+            <div class="case__container"><h2>КЕЙСЫ</h2>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, saepe!</p>
             
+            <div class="case__img"></div>
             
+            <div class="element">
             <h4>CLIENT:</h4>
             <p>Какая-то компания</p>
             
             <h4>WEBSITE:</h4>
             <a href="http://www.somedomain.com" target="_blank">http://www.somedomain.com</a>
+            </div>
             
+            <div class="element">
             <h4>Название проекта</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eum expedita temporibus nulla doloremque repellendus repudiandae at ad consectetur eius! Ad ipsam, corporis autem eum nisi et fuga consequuntur, expedita quisquam dicta obcaecati eveniet est suscipit provident aut delectus maiores.</p>
+            </div>
             
-            <input type="submit" value="VISIT LIVE SITE">
+            <input type="submit" value="VISIT LIVE SITE"></div>
             
             <h3>Расчет стоимости</h3>
             
@@ -97,21 +114,26 @@
             <p>Сроки</p>
             <p>Стоимость</p>
             
-            <h3>НЕМНОГО СТАТИСТИКИ</h3>
+            <div class="statistics"><h3>НЕМНОГО СТАТИСТИКИ</h3>
             
             
-            <span>120</span> <span>счастливых клиентов</span>
-            <span>4600</span> <span>часов работы</span>
-            <span>340</span> <span>проектов завершено</span>
-            <span>23</span> <span>наград получено</span>
+            <div class="sb">
+            <p>120</p> <span>счастливых клиентов</span>
+            <p>4600</p> <span>часов работы</span>
+            <p>340</p> <span>проектов завершено</span>
+            <p>23</p> <span>наград получено</span>
+            </div>
+            </div>
             
+            <div class="reviews">
             <h3>ОТЗЫВЫ</h3>
             
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quis unde veniam ex, alias dignissimos velit blanditiis eveniet ab deserunt.</span>
             <span>Михаил, Ген директор ПАО "Газпром".</span>
+            </div>
             
             <footer> 
-            
+            <div class="ft">
             <h3>МОИ КОНТАКТЫ</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat eos eaque iste ut similique.</span>
             <span>Санкт-Петербург Невский проспект 11</span>
@@ -126,7 +148,7 @@
             <input type="text" name="clientmessage" value="" placeholder="Сообщение">
             
             <input type="submit" value="ОТПРАВИТЬ">
-            
+            </div>
             </footer>
             
             
